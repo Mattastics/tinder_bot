@@ -21,8 +21,8 @@ fb_login_window = driver.window_handles[1]
 
 driver.switch_to.window(fb_login_window)
 time.sleep(3)
-input_email = driver.find_element(By.XPATH, '//*[@id="email"]').send_keys("matthew.salyer@yahoo.com")
-input_password = driver.find_element(By.XPATH, '//*[@id="pass"]').send_keys("Elisha2kings")
+input_email = driver.find_element(By.XPATH, '//*[@id="email"]').send_keys("**************")
+input_password = driver.find_element(By.XPATH, '//*[@id="pass"]').send_keys("*********")
 enter_login = driver.find_element(By.XPATH, '//*[@id="loginbutton"]').click()
 time.sleep(3)
 driver.switch_to.window(base_window)
